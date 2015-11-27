@@ -1,0 +1,321 @@
+  /******************************/
+  /****** Corps de la page******/
+  /****************************/
+body {
+
+
+  margin: auto;
+  background-color: #ececec;
+
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  margin-top: -15px;
+}
+
+nav {
+
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+
+}
+  /***********************************************************/
+  /****** Aspect des Liens pour la navigation (Bandeau)******/
+  /*********************************************************/
+.nav {
+
+  text-decoration: none;
+  text-align: left;
+  color: #1F3A93;
+  font-size: 30px;
+  font-family: serif;
+  margin: 30%;
+
+}
+  /******************************************************/
+  /****** Réaction des liens au survol de la souris******/
+  /*****************************************************/
+
+a:hover {
+
+  color: #AEA8D3;
+  text-shadow: 5px 5px 5px 19B5FE;
+
+}
+
+  /*****************************************/
+  /****** En-tête de la page (Bandeau)******/
+  /****************************************/
+
+#banner {
+
+  margin: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: #446CB3;
+  margin-top: inherit;
+  text-align: center;
+  font-size: 30px;
+  color: #C5EFF7;
+  font-family: fantasy;
+
+}
+#prenom{
+
+  padding-top: 42px;
+
+}
+  /******************************/
+  /****** Bouton Portfolio******/
+  /****************************/
+
+#index {
+
+  width: 100%;
+  height: 40px;
+  background-color: #52B3D9;
+
+}
+
+  /*****************************/
+  /****** Bouton à propos *****/
+  /***************************/
+
+#apropos {
+
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-top: -40px;
+
+}
+  /****************************/
+  /****** Bouton contact******/
+  /**************************/
+
+#contact {
+
+  width: 100%;
+  height: 40px;
+  text-align: right;
+  margin-top: -40px;
+
+}
+
+
+  /*************************************/
+  /****** Informations générales ******/
+  /***********************************/
+
+
+h1 {
+
+  margin-left: 15%;
+  color: #22313F;
+  margin-top: 5%;
+}
+
+
+  /****************************/
+  /****** Texte  contact ******/
+  /****************************/
+
+#textecontact{
+
+  margin-left: 15%;
+  font-size: 16px;
+  color: #336E7B;
+}
+
+  /****************************/
+  /****** Image à propos ******/
+  /****************************/
+
+#cook {
+
+  margin-top: 5%;
+  padding-top: 10px;
+  width: 15%;
+  height: 17%;
+  border-radius: 60%;
+  position: center;
+
+  /************************************/
+  /****** Images page principale ******/
+  /***********************************/
+}
+.imgcont{
+  width: 100%;
+  height: 100%;
+  margin-left: -10%;
+  margin-top: 5%;
+}
+.imgdiv{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.imgdiv img{
+  width: 60%;
+}
+.left{
+  float: left;
+  width: 50%;
+}
+.clear{
+  clear:both;
+}
+.images {
+
+  display: inline-block;
+  width: 40%;
+  height: 20%;
+  border-radius: 20%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+  /**********************************/
+  /****** Pied de page (footer)******/
+  /*********************************/
+
+div {
+
+  color: #1F3A93;
+
+}
+
+
+p {
+
+  margin-top: -3px;
+
+}
+
+section {
+
+  font-size: 20px;
+
+}
+  /*************************************/
+  /****** Image plus lien facebook******/
+  /*************************************/
+
+.contft {
+
+  width: 30%;
+  margin: auto;
+}
+.contft img {
+  width: 20%;
+
+}
+.left {
+  text-align: right;
+}
+.right {
+  text-align: left;
+}
+
+#presentation {
+
+  font-size: 16px;
+  color: #336E7B;
+  margin-left: 15%;
+}
+
+
+  /*********************************************/
+  /****** Lien Mail, Twitter et Facebook******/
+  /*********************************************/
+.align{
+
+  vertical-align: middle;
+  margin-left: 12%;
+  text-decoration: none;
+  color: #6C7A89;
+
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+#twt {
+
+  clear: both;
+  font-size: 20px;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: -40px;
+  max-width: -30px;
+}
+
+#email {
+
+  clear: both;
+  font-size: 10px;
+  margin-left: 15%;
+  text-align: center;
+  margin-top: -40px;
+  max-width: -30px;
+  margin-bottom: -100px;
+
+}
+
+#numero {
+
+  clear: both;
+  font-size: 10px;
+  margin-right: 59%;
+  text-align: center;
+  margin-top: -40px;
+  max-width: -30px;
+
+}
+
+.num {
+
+  margin-left: -20px;
+
+}
+
+.mail {
+
+  float: left;
+  height: 40px;
+  width: 50px;
+  float: left;
+  margin-left: -60px;
+  padding-top: 80px;
+
+}
+
+.twitter {
+
+  float: left;
+  height: 40px;
+  width: 50px;
+  float: left;
+  margin-left: -60px;
+  padding-top: 8px;
+}
+
+h3 {
+
+  color: #22313F;
+  font-size: 30px;
+  margin-left: 15%;
+
+}
+
+figcaption {
+
+  margin-right: 20%;
+
+}
