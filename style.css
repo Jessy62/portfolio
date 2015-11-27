@@ -21,6 +21,7 @@ nav {
   margin: auto;
   position: absolute;
 
+
 }
   /***********************************************************/
   /****** Aspect des Liens pour la navigation (Bandeau)******/
@@ -42,7 +43,26 @@ nav {
 a:hover {
 
   color: #AEA8D3;
-  text-shadow: 5px 5px 5px 19B5FE;
+  text-shadow: 4px 4px 4px #19B5FE;
+
+}
+
+  /******************************************************/
+  /****** Retour au Porfolio en cliquant sur le nom******/
+  /*****************************************************/
+
+
+#clickprenom {
+
+  color: #89C4F4;
+  text-decoration: none;
+}
+
+#clickprenom:hover {
+
+  color: #E4F1FE;
+  text-shadow: 4px 4px 4px #19B5FE;
+
 
 }
 
